@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+}
+
+@media (min-width: 500px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 900px;
+        width: 97%;
+        min-height: 100vh;
+    }
+    .getStarted {
+        width: 50%;
+        align-self: center;
+        margin: 0;
+    }
+    .description {
+        width: 50%;
+    }
+    .middletext,
+    h2 {
+        margin-top: 5em;
+    }
+}
+
+.texts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mouth-text {
+    margin: 0 5em 2px 5em;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #F18119;
+    background-image: url(../images/bbqbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(0, 21%, 30%);
+    background-blend-mode: multiply;
+}
+
+.middletext {
+    color: white;
+    font-size: 40px;
+}
+
+.mouth-text {
+    border-top: 0.4em solid red;
+    border-image: linear-gradient(to right, #FFA51D, #DF4E13) 1;
+}
+
+strong {
+    font-size: 3rem;
+}
+
+.getStarted {
+    margin: 0.5em 1em;
+    padding: 0 1em;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+input,
+button {
+    margin-top: 1em;
+    padding: 0.5em;
+    transform: scale(1);
+    transition: transform 1s;
+    border: 1px solid grey;
+}
+
+button {
+    background-image: linear-gradient(to right, #FFA51D, #DF4E13);
+    color: white;
+}
+
+input:focus {
+    transform: scale(1.1);
+}
+
+button:hover,
+button:focus {
+    transform: scale(1.1);
+}
+
+.getStarted h1 {
+    font-size: 1.5rem;
+}
+
+.getStarted p {
+    color: #5A5A5A;
+    line-height: 1.5;
+}
+
+h3 {
+    color: #F18119;
+}
+
+span {
+    color: #404040;
+    font-size: .8rem;
+}
